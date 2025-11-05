@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: cornsilk;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#card1{
+    height: 45%;
+    width: 18%;
+    background-color: white;
+    margin-left: 18px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+
+}
+#card1>img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#card1>button{
+    border-radius: 50px;
+    padding: 10px 22px;
+    background-color: rgba(230, 59, 59, 0.937);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+}
+#card1>p{
+    text-align: center;
+
+}
+#card1>button:hover{
+    background-color: rgba(228, 106, 104, 0.718);
+}
+
+#card2{
+    height: 45%;
+    width: 18%;
+    background-color: white;
+    margin-left: 18px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+
+}
+#card2>img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#card2>button{
+    border-radius: 50px;
+    padding: 10px 22px;
+    background-color: rgba(68, 124, 203, 0.937);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+}
+#card2>p{
+    text-align: center;
+}
+#card2>button:hover{
+    background-color: rgba(115, 145, 201, 0.718);
+}
+
+#card3{
+    height: 45%;
+    width: 18%;
+    background-color: white;
+    margin-left: 18px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+
+}
+#card3>img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#card3>button{
+    border-radius: 50px;
+    padding: 10px 22px;
+    background-color: rgba(120, 214, 200, 0.937);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+}
+#card3>p{
+    text-align: center;
+}
+#card3>button:hover{
+    background-color: rgba(108, 228, 218, 0.718);
+}
+
+#card4{
+    height: 45%;
+    width: 18%;
+    background-color: white;
+    margin-left: 18px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+
+}
+#card4>img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#card4>button{
+    border-radius: 50px;
+    padding: 10px 22px;
+    background-color: rgba(78, 63, 234, 0.8);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+}
+#card4>p{
+    text-align: center;
+}
+#card4>button:hover{
+    background-color: rgba(92, 152, 235, 0.792);
+}
+
+#card5{
+    height: 45%;
+    width: 18%;
+    background-color: white;
+    margin-left: 18px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+
+}
+#card5>img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#card5>button{
+    border-radius: 50px;
+    padding: 10px 22px;
+    background-color: rgba(235, 94, 214, 0.759);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+}
+#card5>p{
+    text-align: center;
+}
+#card5>button:hover{
+    background-color: rgba(200, 92, 207, 0.496);
+}
+
+#card6{
+    height: 45%;
+    width: 18%;
+    background-color: white;
+    margin-left: 18px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+#card6>img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#card6>button{
+    border-radius: 50px;
+    padding: 10px 22px;
+    background-color: rgba(230, 59, 59, 0.937);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+}
+#card6>p{
+    text-align: center;
+}
+#card6>button:hover{
+    background-color: rgba(228, 106, 104, 0.718);
+}
+
+#card7{
+    height: 45%;
+    width: 18%;
+    background-color: white;
+    margin-left: 18px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+#card7>img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#card7>button{
+    border-radius: 50px;
+    padding: 10px 22px;
+    background-color: rgba(68, 124, 203, 0.937);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+}
+#card7>p{
+    text-align: center;
+}
+#card7>button:hover{
+    background-color: rgba(115, 145, 201, 0.718);
+}
+
+#card8{
+    height: 45%;
+    width: 18%;
+    background-color: white;
+    margin-left: 18px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+#card8>img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#card8>button{
+    border-radius: 50px;
+    padding: 10px 22px;
+    background-color: rgba(120, 214, 200, 0.937);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+}
+#card8>p{
+    text-align: center;
+}
+#card8>button:hover{
+    background-color: rgba(108, 228, 218, 0.718);
+}
+
+#card9{
+    height: 45%;
+    width: 18%;
+    background-color: white;
+    margin-left: 18px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+
+}
+#card9>img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#card9>button{
+    border-radius: 50px;
+    padding: 10px 22px;
+    background-color: rgba(78, 63, 234, 0.8);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+}
+#card9>p{
+    text-align: center;
+}
+#card9>button:hover{
+    background-color: rgba(92, 152, 235, 0.792);
+}
+
+#card10{
+    height: 45%;
+    width: 18%;
+    background-color: white;
+    margin-left: 18px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+
+}
+#card10>img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#card10>button{
+    border-radius: 50px;
+    padding: 10px 22px;
+    background-color: rgba(235, 94, 214, 0.759);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+}
+#card10>p{
+    text-align: center;
+}
+#card10>button:hover{
+    background-color: rgba(200, 92, 207, 0.496);
+}
